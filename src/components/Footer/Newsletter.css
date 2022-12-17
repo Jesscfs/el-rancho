@@ -1,0 +1,40 @@
+.app__newsletter{
+  border: 10px solid var(--color-golden);
+  height:570px;
+}
+
+
+@media  screen and (min-width: 2000px) {
+    
+}
+
+@media  screen and (max-width: 990px) {  /* for larger tablet devices */
+    .app__newsletter-input{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .app__newsletter iframe{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .app__newsletter-input input{
+        margin: 0 0 2rem 0;
+        width: 100%; /*this will help keep the section in place for responsive devices */
+    }
+}
+
+@media  screen and (max-width: 650px) {
+    .app__newsletter{
+        padding: 2rem 0;
+        border:none;
+    }
+}
+
+@media  screen and (max-width: 300px) {  /*for extremely small devices */
+    .app__newsletter-heading h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
-import {images} from '../../constants';
+import weekly from "../../assets/weekly_ad.webp";
+import weekly_2 from "../../assets/weekly_ad_2.webp";
+
 
 import './SpecialMenu.css';
 
@@ -12,7 +14,7 @@ const SpecialMenu = () => (
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-      <img src={images.weekly} alt="menu img" />
+      <img src={weekly} alt="menu img" />
       </div>
 
       {/* <div className="app__specialMenu-menu_img">
@@ -22,7 +24,7 @@ const SpecialMenu = () => (
       </div> */}
 
       <div className="app__specialMenu-menu_cocktails flex__center">
-      <img src={images.weekly_2} alt="menu img" />
+      <img src={weekly_2} alt="menu img" />
       </div>
     </div>
 

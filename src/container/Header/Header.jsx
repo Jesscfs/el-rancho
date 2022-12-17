@@ -1,5 +1,5 @@
 import React from 'react';
-import {images} from "../../constants";
+import el_rancho_logo from "../../assets/el_rancho_logo.png";
 import './Header.css';
 
 
@@ -14,7 +14,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.el_rancho_logo} alt="header img" />
+      <img src={el_rancho_logo} alt="header img" />
     </div>
   </div>
 );

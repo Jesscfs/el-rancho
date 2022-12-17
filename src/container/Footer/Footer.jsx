@@ -3,7 +3,7 @@ import { FaYelp } from 'react-icons/fa';
 import{FiFacebook } from 'react-icons/fi';
 import {BiCopyright} from "react-icons/bi";
 import {FooterOverlay, Newsletter} from '../../components';
-import { images } from '../../constants';
+import el_rancho_logo from "../../assets/el_rancho_logo.png";
 import './Footer.css';
 
 const Footer = () => (
@@ -18,7 +18,7 @@ const Footer = () => (
         <p className="p__opensans">(669) 239-0857</p>
       </div>
       <div className="app__footer-links_logo">
-        <img src={images.el_rancho_logo} alt="footer_logo" />
+        <img src={el_rancho_logo} alt="footer_logo" />
         <div className="app__footer-links_icons">
           <a href="https://www.facebook.com/people/El-Rancho-Foods-Supermarket/100083129807084/"><FiFacebook/></a>
           <a href="https://www.yelp.com/biz/el-rancho-foods-gilroy"><FaYelp/></a>

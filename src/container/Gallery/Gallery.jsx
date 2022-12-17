@@ -1,11 +1,14 @@
 import React from 'react';
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { FaYelp } from 'react-icons/fa';
 import {SubHeading} from '../../components';
-import {images} from '../../constants';
+import rancho_store_1 from "../../assets/rancho_store_1.webp";
+import rancho_store_2 from "../../assets/rancho_store_2.webp";
+import rancho_store_3 from "../../assets/rancho_store_3.jpg";
+import rancho_store_4 from "../../assets/rancho_store_4.jpg";
 import './Gallery.css';
 
-const galleryImages = [images.rancho_store_3,images.rancho_store_4,images.rancho_store_1,images.rancho_store_2,];
+const galleryImages = [rancho_store_3, rancho_store_4, rancho_store_1, rancho_store_2,];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

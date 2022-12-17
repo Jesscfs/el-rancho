@@ -3,7 +3,7 @@ import {GiHamburgerMenu} from 'react-icons/gi';
 import {MdOutlineRestaurantMenu} from 'react-icons/md';
 import{FiFacebook} from 'react-icons/fi';
 import {FaYelp} from 'react-icons/fa';
-import images from '../../constants/images';
+import rancho_logo from "../../assets/rancho_logo.jpg";
 import './Navbar.css';
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
   return(
   <nav className="app__navbar">
     <div className="app__navbar-logo">
-      <img src={images.rancho_logo} alt="app logo" />
+      <img src={rancho_logo} alt="app logo" />
     </div>
     <ul className="app__navbar-links">
       <li className="p__opensans"><a href="#home">Home</a></li>

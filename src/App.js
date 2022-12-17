@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Gallery, Header, Intro, SpecialMenu } from './container';
+import { Footer, Gallery, Header, Intro,SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 

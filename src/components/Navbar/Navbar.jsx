@@ -10,6 +10,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+
   return(
   <nav className="app__navbar">
     <div className="app__navbar-logo">
@@ -38,9 +39,9 @@ const Navbar = () => {
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
         <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={()=>setToggleMenu(false)} />
         <ul className="app__navbar-smallscreen_links">
-          <li className="p__opensans"><a href="#home">Home</a></li>
-          <li className="p__opensans"><a href="#specialmenu">Weekly AD</a></li>
-          <li className="p__opensans"><a href="#location">Location / Contact</a></li>
+          <li className="p__opensans"><a href="#home" onClick={()=>setToggleMenu(false)}>Home</a></li>
+          <li className="p__opensans"><a href="#specialmenu" onClick={()=>setToggleMenu(false)}>Weekly AD</a></li>
+          <li className="p__opensans"><a href="#location" onClick={()=>setToggleMenu(false)}>Location / Contact</a></li>
         </ul>
         </div> 
       )}

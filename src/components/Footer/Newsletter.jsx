@@ -1,5 +1,4 @@
-import React, { useMemo } from 'react';
-import SubHeading from '../SubHeading/SubHeading';
+import React  from 'react';
 import './Newsletter.css';
 
 

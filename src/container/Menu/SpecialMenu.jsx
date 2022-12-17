@@ -1,9 +1,5 @@
 import React from 'react';
-import Zoom from "react-medium-image-zoom";
-import { MdMenuBook } from 'react-icons/md';
-
-import { SubHeading, MenuItem } from '../../components';
-import {images,data} from '../../constants';
+import {images} from '../../constants';
 
 import './SpecialMenu.css';
 

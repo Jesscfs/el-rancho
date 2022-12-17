@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaYelp } from 'react-icons/fa';
-import{FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import{FiFacebook } from 'react-icons/fi';
 import {BiCopyright} from "react-icons/bi";
 import {FooterOverlay, Newsletter} from '../../components';
 import { images } from '../../constants';

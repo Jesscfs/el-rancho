@@ -1,6 +1,6 @@
 .app__specialMenu{
     flex-direction: column;
-    background:rgb(44, 43, 41);
+    background:rgb(0, 0, 0);
 }
 
 .app__specialMenu-title{
@@ -29,7 +29,7 @@
 
 .app__specialMenu-menu_wine,.app__specialMenu-menu_cocktails{
     margin: 10px;
-    border: 6px solid black;
+    border: 6px solid #DCCA87;
     flex-direction: column;
     
 }

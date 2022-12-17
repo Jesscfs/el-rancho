@@ -14,8 +14,8 @@ const Footer = () => (
     <div className='app__footer-links'>
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">211 1ST ST, Gilroy, CA, United States, California</p>
-        <p className="p__opensans">(669) 239-0857</p>
+        <p className="pa__opensans">211 1ST ST, Gilroy, CA, United States, California</p>
+        <p className="pa__opensans">(669) 239-0857</p>
       </div>
       <div className="app__footer-links_logo">
         <img src={el_rancho_logo} alt="footer_logo" />
@@ -26,12 +26,12 @@ const Footer = () => (
       </div>
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Store Hours</h1>
-        <p className="p__opensans">Monday-Sunday:</p>
-        <p className="p__opensans">07:00 Am - 10:00 Pm</p>
+        <p className="pa__opensans">Monday-Sunday:</p>
+        <p className="pa__opensans">07:00 Am - 10:00 Pm</p>
       </div>
     </div>
     <div className="footer__copyright">
-      <p className="p__opensans"><BiCopyright/> 2023 El Rancho Foods Supermarket. All Rights reserved.</p>
+      <p className="pa__opensans"><BiCopyright/> 2023 El Rancho Foods Supermarket. All Rights reserved.</p>
     </div>
   </div>
 );
